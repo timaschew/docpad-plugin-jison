@@ -12,8 +12,13 @@
           Parser = require("jison").Parser;
 
           try {
+            var parseOpts = {};
+            var moduleName = opts.templateData.document.meta.moduleName;
+            if (moduleName) {
+              parseOpts.moduleName = moduleName;
+            }
             parser = new Parser(opts.content || '');
-            opts.content = parser.generate();
+            opts.content = parser.generate(parseOpts);
           } catch (err) {
             return err;
           }
