@@ -1,0 +1,39 @@
+{
+    "name": "docpad-plugin-jison",
+    "version": "2.0.0",
+    "description": "DocPad plugin for JISON",
+    "homepage": "https://github.com/timaschew/docpad-plugin-jison",
+    "keywords": [
+        "docpad",
+        "docpad-plugin",
+        "jison",
+        "bison"
+    ],
+    "author": "Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew/docpad-plugin-jison)",
+    "maintainers": [
+        "Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew)"
+    ],
+    "contributors": [
+        "Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew)"
+    ],
+    "bugs": {
+        "url": "https://github.com/timaschew/docpad-plugin-jison/issues"
+    },
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/timaschew/docpad-plugin-jison.git"
+    },
+    "engines" : {
+        "node": ">=0.8"
+    },
+    "peerDependencies": {
+        "docpad": "6"
+    },
+    "dependencies": {
+        "jison": "0.4.13"
+    },
+    "devDependencies": {
+        "docpad": "6",
+    },
+    "main": ".jison.plugin.js"
+}
