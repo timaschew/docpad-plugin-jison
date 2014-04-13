@@ -3,7 +3,7 @@ docpad-plugin-jison
 
 This a docpad plugin for [Jison](http://zaach.github.io/jison/) - the friendly JavaScript parser generator 
 
-To set the variable name for the parser use **moduleName** meta tag in your file.
+To set the variable name for the parser use **moduleName** (default: parser) meta tag in your file.
 
 *grammar.js.jison*
 
