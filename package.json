@@ -33,7 +33,7 @@
         "jison": "0.4.13"
     },
     "devDependencies": {
-        "docpad": "6",
+        "docpad": "6"
     },
-    "main": ".jison.plugin.js"
+    "main": "./jison.plugin.js"
 }
